@@ -16,6 +16,10 @@
     "pre-commit": "^1.2.2",
     "tape": "^4.11.0"
   },
+  "files": [
+      "index.d.ts",
+      "example"
+  ],
   "scripts": {
     "eslint": "eslint index.js test",
     "test-spec": "tape test/*.js",
